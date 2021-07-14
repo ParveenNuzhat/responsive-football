@@ -69,13 +69,17 @@
     height: 830px;
 }
 
+.players{
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .player{
-    width: 300px;
+    width: 250px;
+    height: auto;
 }
 
 .youtube iframe {
     width: 85%;
     height: 280px;
-}
-   
+} 
 }
