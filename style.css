@@ -78,6 +78,40 @@ button{
     height: 256px;
 }
 
+/* Bonus Container Styles */
+
+#highlights_banner{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 50%;
+    margin: auto;
+    padding: 1.5rem 0;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    box-shadow: 10px 10px 40px rgb(170, 165, 165);
+}
+
+.country{
+    display: flex;
+    align-items: center;
+}
+
+.country img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.score{
+    padding: 0 60px;
+}
+
+.youtube{
+    text-align: center;
+    margin-top: 70px;
+}
+
 /* Footer Styles */
 
 footer{
@@ -92,4 +126,23 @@ footer{
 .footer-img img{
     width: 483.87px;
     height: 110px;  
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.social-icon{
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: #f1f1f1;
+    margin: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p{
+    font-size: 18px;
 }
