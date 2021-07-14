@@ -64,16 +64,18 @@
 /* Tablet */
 
 @media (min-width: 481px) and (max-width: 767px) {
-    .header-container {
-        height: 830px;
-    }
 
-    .player {
-        width: 300px;
-    }
+.header-container{
+    height: 830px;
+}
 
-    .youtube iframe {
-        width: 85%;
-        height: 280px;
-    }
-    }
+.player{
+    width: 300px;
+}
+
+.youtube iframe {
+    width: 85%;
+    height: 280px;
+}
+   
+}
