@@ -41,6 +41,15 @@
     padding: 0 16px;
 }
 
+.country h3>span{
+    display: block;
+}
+
+
+.score {
+    display: none;
+}
+
 .youtube iframe {
     width: 85%;
     height: 200px;
