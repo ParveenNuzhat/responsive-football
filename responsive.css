@@ -1,0 +1,70 @@
+
+/* Media Queries */
+
+/* Mobile Devices */
+
+@media all and (max-width: 767px){
+
+.header-container {
+    flex-direction: column;
+    height: 580px;
+}
+.header {
+    margin-left: 0;
+    padding-bottom: 32px;
+}
+.half-width {
+    width: 85%;
+    margin: 0 auto;
+}
+.header-title {
+    font-size: 24px;
+}
+.button {
+    width: 130px;
+    height: 35px;
+    font-size: 11px;
+    border: none;
+}
+.half-width img {
+    width: 100%;
+    height: auto;
+}
+.players {
+    grid-template-columns: repeat(1, 1fr);
+}
+#highlights_banner {
+    width: 100%;
+    flex-direction: column;
+}
+.country h3 {
+    padding: 0 16px;
+}
+
+.youtube iframe {
+    width: 85%;
+    height: 200px;
+}
+
+.footer-img img {
+    width: 100%;
+    height: auto;
+}
+}
+
+/* Tablet */
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .header-container {
+        height: 830px;
+    }
+
+    .player {
+        width: 300px;
+    }
+
+    .youtube iframe {
+        width: 85%;
+        height: 280px;
+    }
+    }
