@@ -79,13 +79,3 @@
     height: 280px;
 } 
 }
-
-@media (min-width: 768px) and (max-width: 992px) {
-.players {
-    grid-template-columns: repeat(2, 1fr);
-}
-.player {
-    width: 250px;
-}
-
-}
